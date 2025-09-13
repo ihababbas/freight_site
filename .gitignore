@@ -1,0 +1,28 @@
+# Virtual environment
+env/
+venv/
+super/
+
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Database files
+db.sqlite3
+db.sqlite3-journal
+
+# Media and collected static files
+/media/
+/staticfiles/
+
+# Local settings and environment variables
+local_settings.py
+.env
+
+# Editor and OS-specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Log files
+*.log
